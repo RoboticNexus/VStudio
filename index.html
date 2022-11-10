@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Miner</title>
+</head>
+<body>
+    <p>update: 0.01</p>
+    <p id="goldMined">0 Gold Mined</p>
+    <div id="navigationButtons">
+        <button onclick="tab('mineGoldMenu')">Go To Mine Gold</button>
+        <button onclick="tab('shopMenu')">Go To Shop</button>
+    </div>
+    <div id="mineGoldMenu">
+        <button onclick="mineGold()">Mine Gold</button>
+    </div>
+    <div id="shopMenu">
+        <button onClick="buyGoldPerClick()" id="perClickUpgrade">Upgrade Pickaxe (Level: 1) Cost: 10</button>
+    </div>
+    <script src="main.js" charset="UTF-8" type="text/javascript"></script>
+</body>
+</html>
